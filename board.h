@@ -15,6 +15,7 @@
 #include <algorithm>
 #include <utility>
 #include <cmath>
+#include <chrono>
 
 /**
  * definition for the 9x9 board
