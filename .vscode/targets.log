@@ -8,7 +8,7 @@ make.exe: *** INTERNAL: readdir: Invalid argument.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jan 13 14:37:07 2022
+# Make data base, printed on Thu Jan 13 18:29:04 2022
 
 # Variables
 
@@ -61,7 +61,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-ca471181-76b1-4968-9a6c-20f88159ed7d-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-538e6aeb-c8e5-426f-a12d-cc0ef758b2de-sock
 # environment
 VSCODE_CWD = C:\Users\weng0\AppData\Local\Programs\Microsoft VS Code
 # default
@@ -211,7 +211,7 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-JQL0NI4
 
 # Directories
 
-# . (key c:/Users/weng0/OneDrive/??/TCG/TCG-Project4-sample, mtime 1641870154): No files, no impossibilities so far.
+# . (key c:/Users/weng0/OneDrive/??/TCG/TCG-Project4-sample, mtime 1642069702): No files, no impossibilities so far.
 
 # No files, no impossibilities in 1 directories.
 
@@ -248,6 +248,6 @@ all:
 # strcache performance: lookups = 5 / hit rate = 20%
 # hash-table stats:
 # Load=4/8192=0%, Rehash=0, Collisions=0/5=0%
-# Finished Make data base on Thu Jan 13 14:37:07 2022
+# Finished Make data base on Thu Jan 13 18:29:04 2022
 
  
