@@ -105,7 +105,7 @@ public:
 				update(path, leaf->simulate(engine));
 				now = std::chrono::high_resolution_clock::now();
 				timespent = std::chrono::duration_cast<std::chrono::milliseconds>(now - start);
-			}while(timespent < T);
+			}while(timespent < 1000);
 			/*for (size_t i = 0; i < N; i++) {
 				std::vector<node*> path = select();
 				node* leaf = path.back()->expand(engine);
