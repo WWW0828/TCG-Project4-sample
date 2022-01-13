@@ -1,0 +1,17 @@
+(;FF[4]CA[UTF-8]AP[gogui-twogtp:1.4.9]SZ[9]
+KM[0]PB[Judge-Weak-Black]PW[Hollow-White]DT[2022-01-13]RE[W+R]
+C[Black command: ./nogo-judge --shell --name="Judge-Weak-Black" --black="weak"
+White command: ./nogo --shell --name="Hollow-White" --white="mcts N=100 T=1000"
+Black version: 2021
+White version: 2021
+Result[Black\]: W+R
+Result[White\]: W+R
+Host: tcglinux2.cs.nctu.edu.tw (Intel(R) Xeon(R) Gold 6126 CPU @ 2.60GHz)
+Date: January 13, 2022 5:21:15 PM CST]
+;B[ie];W[eg];B[dc];W[ag];B[dg];W[ec];B[hd];W[hg];B[ab];W[fb]
+;B[ah];W[hi];B[hb];W[ca];B[ei];W[gf];B[ib];W[ia];B[eh];W[ae]
+;B[aa];W[cf];B[bi];W[bb];B[ge];W[gb];B[fa];W[bg];B[di];W[cd]
+;B[gg];W[ad];B[gc];W[db];B[ig];W[fh];B[fc];W[cg];B[af];W[ic]
+;B[gi];W[ea];B[ga];W[gh];B[hc];W[ce];B[bh];W[ch];B[ii];W[if]
+;B[ci];W[bc];B[cb];W[ac];B[ih];W[be];B[gd];W[he];B[ai];W[bd]
+;B[dh];W[da])

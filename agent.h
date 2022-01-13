@@ -95,7 +95,8 @@ public:
 		/**
 		 * run MCTS for N cycles and retrieve the best action
 		 */
-		action run_mcts(long long T, std::default_random_engine& engine) {
+		action run_mcts(size_t N, std::default_random_engine& engine) {
+			if(N == 1){
 			auto start = std::chrono::high_resolution_clock::now();
 			auto now = std::chrono::high_resolution_clock::now();
 			auto timespent = std::chrono::duration_cast<std::chrono::milliseconds>(now - start);
@@ -110,12 +111,15 @@ public:
 				count++;
 			}while(timespent.count() < 1000);
 			std::cout<<"search cycle: "<<count<<std::endl;
-			/*for (size_t i = 0; i < N; i++) {
+			}
+			else{
+			for (size_t i = 0; i < N; i++) {
 				std::vector<node*> path = select();
 				node* leaf = path.back()->expand(engine);
 				if (leaf != path.back()) path.push_back(leaf);
 				update(path, leaf->simulate(engine));
-			}*/
+			}
+			}
 			return take_action();
 		}
 
@@ -224,7 +228,8 @@ public:
 	virtual action take_action(const board& state) {
 		size_t N = meta["N"];
 		// if (N) return node(state).run_mcts(N, T, engine);
-		if(N) return node(state).run_mcts(1000, engine);
+		if(N == 1)return node(state).run_mcts(1,engine);
+		if(N) return node(state).run_mcts(N, engine);
 		std::shuffle(space.begin(), space.end(), engine);
 		for (const action::place& move : space) {
 			board after = state;

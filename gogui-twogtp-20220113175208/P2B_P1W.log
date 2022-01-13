@@ -1,0 +1,2175 @@
+B>> protocol_version
+B<< HollowNoGo-Judge: ./nogo-judge --shell --name=Judge-Medium --black=medium --white=medium 
+B<< 
+B<< = 2
+B<< 
+B>> name
+B<< = Judge-Medium
+B<< 
+B>> version
+B<< = 2021
+B<< 
+B>> list_commands
+B<< = play
+B<< genmove
+B<< clear_board
+B<< showboard
+B<< boardsize
+B<< name
+B<< version
+B<< protocol_version
+B<< list_commands
+B<< quit
+B<< 
+B<< 
+W>> protocol_version
+W<< HollowNoGo-Demo: /tcgdisk/M093875/TCG-Project4-sample/./nogo --shell --name=Hollow-White --white=mcts N=1 
+W<< 
+W<< = 2
+W<< 
+W>> name
+W<< = Hollow-White
+W<< 
+W>> version
+W<< = 2021
+W<< 
+W>> list_commands
+W<< = play
+W<< genmove
+W<< clear_board
+W<< showboard
+W<< boardsize
+W<< name
+W<< version
+W<< protocol_version
+W<< list_commands
+W<< quit
+W<< 
+W<< 
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+============================================
+Game 0
+============================================
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+B>> genmove b
+B<< = B9
+B<< 
+W>> play B B9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 8671
+W<< = D8
+W<< 
+B>> play W D8
+B<< = 
+B<< 
+B>> genmove b
+B<< = G6
+B<< 
+W>> play B G6
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 8927
+W<< = J8
+W<< 
+B>> play W J8
+B<< = 
+B<< 
+B>> genmove b
+B<< = J9
+B<< 
+W>> play B J9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 8942
+W<< = C5
+W<< 
+B>> play W C5
+B<< = 
+B<< 
+B>> genmove b
+B<< = J7
+B<< 
+W>> play B J7
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9204
+W<< = E1
+W<< 
+B>> play W E1
+B<< = 
+B<< 
+B>> genmove b
+B<< = B1
+B<< 
+W>> play B B1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9094
+W<< = G9
+W<< 
+B>> play W G9
+B<< = 
+B<< 
+B>> genmove b
+B<< = D2
+B<< 
+W>> play B D2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9234
+W<< = G7
+W<< 
+B>> play W G7
+B<< = 
+B<< 
+B>> genmove b
+B<< = C7
+B<< 
+W>> play B C7
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9036
+W<< = G5
+W<< 
+B>> play W G5
+B<< = 
+B<< 
+B>> genmove b
+B<< = A7
+B<< 
+W>> play B A7
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9633
+W<< = E7
+W<< 
+B>> play W E7
+B<< = 
+B<< 
+B>> genmove b
+B<< = A2
+B<< 
+W>> play B A2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9718
+W<< = A3
+W<< 
+B>> play W A3
+B<< = 
+B<< 
+B>> genmove b
+B<< = E3
+B<< 
+W>> play B E3
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9977
+W<< = D1
+W<< 
+B>> play W D1
+B<< = 
+B<< 
+B>> genmove b
+B<< = C2
+B<< 
+W>> play B C2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9936
+W<< = G8
+W<< 
+B>> play W G8
+B<< = 
+B<< 
+B>> genmove b
+B<< = D9
+B<< 
+W>> play B D9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10107
+W<< = F8
+W<< 
+B>> play W F8
+B<< = 
+B<< 
+B>> genmove b
+B<< = B8
+B<< 
+W>> play B B8
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9527
+W<< = A6
+W<< 
+B>> play W A6
+B<< = 
+B<< 
+B>> genmove b
+B<< = B6
+B<< 
+W>> play B B6
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9857
+W<< = C3
+W<< 
+B>> play W C3
+B<< = 
+B<< 
+B>> genmove b
+B<< = F9
+B<< 
+W>> play B F9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10592
+W<< = B4
+W<< 
+B>> play W B4
+B<< = 
+B<< 
+B>> genmove b
+B<< = J1
+B<< 
+W>> play B J1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10767
+W<< = J5
+W<< 
+B>> play W J5
+B<< = 
+B<< 
+B>> genmove b
+B<< = H9
+B<< 
+W>> play B H9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10375
+W<< = C9
+W<< 
+B>> play W C9
+B<< = 
+B<< 
+B>> genmove b
+B<< = B3
+B<< 
+W>> play B B3
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 11931
+W<< = C1
+W<< 
+B>> play W C1
+B<< = 
+B<< 
+B>> genmove b
+B<< = F3
+B<< 
+W>> play B F3
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 12446
+W<< = A8
+W<< 
+B>> play W A8
+B<< = 
+B<< 
+B>> genmove b
+B<< = J4
+B<< 
+W>> play B J4
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 12938
+W<< = E8
+W<< 
+B>> play W E8
+B<< = 
+B<< 
+B>> genmove b
+B<< = G2
+B<< 
+W>> play B G2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 12359
+W<< = E2
+W<< 
+B>> play W E2
+B<< = 
+B<< 
+B>> genmove b
+B<< = H1
+B<< 
+W>> play B H1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 12933
+W<< = D3
+W<< 
+B>> play W D3
+B<< = 
+B<< 
+B>> genmove b
+B<< = J2
+B<< 
+W>> play B J2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 12985
+W<< = J3
+W<< 
+B>> play W J3
+B<< = 
+B<< 
+B>> genmove b
+B<< = C6
+B<< 
+W>> play B C6
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 14153
+W<< = H7
+W<< 
+B>> play W H7
+B<< = 
+B<< 
+B>> genmove b
+B<< = H4
+B<< 
+W>> play B H4
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 15344
+W<< = F1
+W<< 
+B>> play W F1
+B<< = 
+B<< 
+B>> genmove b
+B<< = G3
+B<< 
+W>> play B G3
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 15054
+W<< = G4
+W<< 
+B>> play W G4
+B<< = 
+B<< 
+B>> genmove b
+B<< = G1
+B<< 
+W>> play B G1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 16000
+W<< = B5
+W<< 
+B>> play W B5
+B<< = 
+B<< 
+B>> genmove b
+B<< = H6
+B<< 
+W>> play B H6
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 17662
+W<< = D7
+W<< 
+B>> play W D7
+B<< = 
+B<< 
+B>> genmove b
+B<< = H2
+B<< 
+W>> play B H2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 18673
+W<< = A4
+W<< 
+B>> play W A4
+B<< = 
+B<< 
+B>> genmove b
+B<< = A1
+B<< 
+W>> play B A1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 23442
+W<< = A5
+W<< 
+B>> play W A5
+B<< = 
+B<< 
+B>> genmove b
+B<< = B7
+B<< 
+W>> play B B7
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 34237
+W<< = C8
+W<< 
+B>> play W C8
+B<< = 
+B<< 
+B>> genmove b
+B<< = J6
+B<< 
+W>> play B J6
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 50819
+W<< = F7
+W<< 
+B>> play W F7
+B<< = 
+B<< 
+B>> genmove b
+B<< = resign
+B<< 
+============================================
+Game 1
+============================================
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+B>> genmove b
+B<< = J6
+B<< 
+W>> play B J6
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 8720
+W<< = H1
+W<< 
+B>> play W H1
+B<< = 
+B<< 
+B>> genmove b
+B<< = G1
+B<< 
+W>> play B G1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 8960
+W<< = A1
+W<< 
+B>> play W A1
+B<< = 
+B<< 
+B>> genmove b
+B<< = C7
+B<< 
+W>> play B C7
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 8990
+W<< = B5
+W<< 
+B>> play W B5
+B<< = 
+B<< 
+B>> genmove b
+B<< = E7
+B<< 
+W>> play B E7
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9097
+W<< = C8
+W<< 
+B>> play W C8
+B<< = 
+B<< 
+B>> genmove b
+B<< = D8
+B<< 
+W>> play B D8
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9217
+W<< = G9
+W<< 
+B>> play W G9
+B<< = 
+B<< 
+B>> genmove b
+B<< = E9
+B<< 
+W>> play B E9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9278
+W<< = G3
+W<< 
+B>> play W G3
+B<< = 
+B<< 
+B>> genmove b
+B<< = J1
+B<< 
+W>> play B J1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9358
+W<< = F7
+W<< 
+B>> play W F7
+B<< = 
+B<< 
+B>> genmove b
+B<< = A8
+B<< 
+W>> play B A8
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9679
+W<< = B3
+W<< 
+B>> play W B3
+B<< = 
+B<< 
+B>> genmove b
+B<< = B9
+B<< 
+W>> play B B9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9737
+W<< = H8
+W<< 
+B>> play W H8
+B<< = 
+B<< 
+B>> genmove b
+B<< = C5
+B<< 
+W>> play B C5
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9925
+W<< = B2
+W<< 
+B>> play W B2
+B<< = 
+B<< 
+B>> genmove b
+B<< = J9
+B<< 
+W>> play B J9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9766
+W<< = A7
+W<< 
+B>> play W A7
+B<< = 
+B<< 
+B>> genmove b
+B<< = A4
+B<< 
+W>> play B A4
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10149
+W<< = D3
+W<< 
+B>> play W D3
+B<< = 
+B<< 
+B>> genmove b
+B<< = C9
+B<< 
+W>> play B C9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10254
+W<< = C3
+W<< 
+B>> play W C3
+B<< = 
+B<< 
+B>> genmove b
+B<< = B7
+B<< 
+W>> play B B7
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9629
+W<< = G6
+W<< 
+B>> play W G6
+B<< = 
+B<< 
+B>> genmove b
+B<< = F8
+B<< 
+W>> play B F8
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9684
+W<< = B1
+W<< 
+B>> play W B1
+B<< = 
+B<< 
+B>> genmove b
+B<< = F3
+B<< 
+W>> play B F3
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10032
+W<< = J3
+W<< 
+B>> play W J3
+B<< = 
+B<< 
+B>> genmove b
+B<< = A2
+B<< 
+W>> play B A2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10334
+W<< = B4
+W<< 
+B>> play W B4
+B<< = 
+B<< 
+B>> genmove b
+B<< = D2
+B<< 
+W>> play B D2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10447
+W<< = H4
+W<< 
+B>> play W H4
+B<< = 
+B<< 
+B>> genmove b
+B<< = H5
+B<< 
+W>> play B H5
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10872
+W<< = G5
+W<< 
+B>> play W G5
+B<< = 
+B<< 
+B>> genmove b
+B<< = H3
+B<< 
+W>> play B H3
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 11271
+W<< = A5
+W<< 
+B>> play W A5
+B<< = 
+B<< 
+B>> genmove b
+B<< = B6
+B<< 
+W>> play B B6
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 11437
+W<< = J7
+W<< 
+B>> play W J7
+B<< = 
+B<< 
+B>> genmove b
+B<< = C1
+B<< 
+W>> play B C1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 11867
+W<< = E3
+W<< 
+B>> play W E3
+B<< = 
+B<< 
+B>> genmove b
+B<< = J4
+B<< 
+W>> play B J4
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 12412
+W<< = G2
+W<< 
+B>> play W G2
+B<< = 
+B<< 
+B>> genmove b
+B<< = E2
+B<< 
+W>> play B E2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 13083
+W<< = H6
+W<< 
+B>> play W H6
+B<< = 
+B<< 
+B>> genmove b
+B<< = E1
+B<< 
+W>> play B E1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 13611
+W<< = H9
+W<< 
+B>> play W H9
+B<< = 
+B<< 
+B>> genmove b
+B<< = C2
+B<< 
+W>> play B C2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 15106
+W<< = G8
+W<< 
+B>> play W G8
+B<< = 
+B<< 
+B>> genmove b
+B<< = E8
+B<< 
+W>> play B E8
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 15095
+W<< = C4
+W<< 
+B>> play W C4
+B<< = 
+B<< 
+B>> genmove b
+B<< = F2
+B<< 
+W>> play B F2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 16547
+W<< = G4
+W<< 
+B>> play W G4
+B<< = 
+B<< 
+B>> genmove b
+B<< = F1
+B<< 
+W>> play B F1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 15912
+W<< = G7
+W<< 
+B>> play W G7
+B<< = 
+B<< 
+B>> genmove b
+B<< = C6
+B<< 
+W>> play B C6
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 18059
+W<< = F9
+W<< 
+B>> play W F9
+B<< = 
+B<< 
+B>> genmove b
+B<< = D7
+B<< 
+W>> play B D7
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 23458
+W<< = A6
+W<< 
+B>> play W A6
+B<< = 
+B<< 
+B>> genmove b
+B<< = A9
+B<< 
+W>> play B A9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 35029
+W<< = H7
+W<< 
+B>> play W H7
+B<< = 
+B<< 
+B>> genmove b
+B<< = D9
+B<< 
+W>> play B D9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 55232
+W<< = resign
+W<< 
+============================================
+Game 2
+============================================
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+B>> genmove b
+B<< = C2
+B<< 
+W>> play B C2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 8835
+W<< = J1
+W<< 
+B>> play W J1
+B<< = 
+B<< 
+B>> genmove b
+B<< = H9
+B<< 
+W>> play B H9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 8843
+W<< = A7
+W<< 
+B>> play W A7
+B<< = 
+B<< 
+B>> genmove b
+B<< = A2
+B<< 
+W>> play B A2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 8998
+W<< = G2
+W<< 
+B>> play W G2
+B<< = 
+B<< 
+B>> genmove b
+B<< = E7
+B<< 
+W>> play B E7
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9028
+W<< = H8
+W<< 
+B>> play W H8
+B<< = 
+B<< 
+B>> genmove b
+B<< = B1
+B<< 
+W>> play B B1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9065
+W<< = J3
+W<< 
+B>> play W J3
+B<< = 
+B<< 
+B>> genmove b
+B<< = C6
+B<< 
+W>> play B C6
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9231
+W<< = B4
+W<< 
+B>> play W B4
+B<< = 
+B<< 
+B>> genmove b
+B<< = A8
+B<< 
+W>> play B A8
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9143
+W<< = A5
+W<< 
+B>> play W A5
+B<< = 
+B<< 
+B>> genmove b
+B<< = F3
+B<< 
+W>> play B F3
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9338
+W<< = E1
+W<< 
+B>> play W E1
+B<< = 
+B<< 
+B>> genmove b
+B<< = D1
+B<< 
+W>> play B D1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9733
+W<< = J6
+W<< 
+B>> play W J6
+B<< = 
+B<< 
+B>> genmove b
+B<< = A4
+B<< 
+W>> play B A4
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10023
+W<< = G5
+W<< 
+B>> play W G5
+B<< = 
+B<< 
+B>> genmove b
+B<< = J5
+B<< 
+W>> play B J5
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10205
+W<< = E3
+W<< 
+B>> play W E3
+B<< = 
+B<< 
+B>> genmove b
+B<< = D3
+B<< 
+W>> play B D3
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10518
+W<< = G7
+W<< 
+B>> play W G7
+B<< = 
+B<< 
+B>> genmove b
+B<< = G6
+B<< 
+W>> play B G6
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10925
+W<< = A9
+W<< 
+B>> play W A9
+B<< = 
+B<< 
+B>> genmove b
+B<< = D8
+B<< 
+W>> play B D8
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 11075
+W<< = H2
+W<< 
+B>> play W H2
+B<< = 
+B<< 
+B>> genmove b
+B<< = J7
+B<< 
+W>> play B J7
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 11146
+W<< = E9
+W<< 
+B>> play W E9
+B<< = 
+B<< 
+B>> genmove b
+B<< = C9
+B<< 
+W>> play B C9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 11195
+W<< = B2
+W<< 
+B>> play W B2
+B<< = 
+B<< 
+B>> genmove b
+B<< = F1
+B<< 
+W>> play B F1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 11881
+W<< = J8
+W<< 
+B>> play W J8
+B<< = 
+B<< 
+B>> genmove b
+B<< = H1
+B<< 
+W>> play B H1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 12572
+W<< = G9
+W<< 
+B>> play W G9
+B<< = 
+B<< 
+B>> genmove b
+B<< = F2
+B<< 
+W>> play B F2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 12954
+W<< = G3
+W<< 
+B>> play W G3
+B<< = 
+B<< 
+B>> genmove b
+B<< = G4
+B<< 
+W>> play B G4
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 13628
+W<< = F8
+W<< 
+B>> play W F8
+B<< = 
+B<< 
+B>> genmove b
+B<< = H3
+B<< 
+W>> play B H3
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 14073
+W<< = D7
+W<< 
+B>> play W D7
+B<< = 
+B<< 
+B>> genmove b
+B<< = D2
+B<< 
+W>> play B D2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 14335
+W<< = E8
+W<< 
+B>> play W E8
+B<< = 
+B<< 
+B>> genmove b
+B<< = A6
+B<< 
+W>> play B A6
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 15159
+W<< = C3
+W<< 
+B>> play W C3
+B<< = 
+B<< 
+B>> genmove b
+B<< = C4
+B<< 
+W>> play B C4
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 15593
+W<< = B9
+W<< 
+B>> play W B9
+B<< = 
+B<< 
+B>> genmove b
+B<< = D9
+B<< 
+W>> play B D9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 14410
+W<< = J4
+W<< 
+B>> play W J4
+B<< = 
+B<< 
+B>> genmove b
+B<< = B6
+B<< 
+W>> play B B6
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 14141
+W<< = B5
+W<< 
+B>> play W B5
+B<< = 
+B<< 
+B>> genmove b
+B<< = C5
+B<< 
+W>> play B C5
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 18932
+W<< = J2
+W<< 
+B>> play W J2
+B<< = 
+B<< 
+B>> genmove b
+B<< = C8
+B<< 
+W>> play B C8
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 18056
+W<< = F9
+W<< 
+B>> play W F9
+B<< = 
+B<< 
+B>> genmove b
+B<< = G1
+B<< 
+W>> play B G1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 21981
+W<< = G8
+W<< 
+B>> play W G8
+B<< = 
+B<< 
+B>> genmove b
+B<< = C1
+B<< 
+W>> play B C1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 27426
+W<< = B3
+W<< 
+B>> play W B3
+B<< = 
+B<< 
+B>> genmove b
+B<< = A1
+B<< 
+W>> play B A1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 36303
+W<< = C7
+W<< 
+B>> play W C7
+B<< = 
+B<< 
+B>> genmove b
+B<< = H7
+B<< 
+W>> play B H7
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 64546
+W<< = resign
+W<< 
+============================================
+Game 3
+============================================
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+B>> genmove b
+B<< = D2
+B<< 
+W>> play B D2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 8852
+W<< = F2
+W<< 
+B>> play W F2
+B<< = 
+B<< 
+B>> genmove b
+B<< = J9
+B<< 
+W>> play B J9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 8856
+W<< = H1
+W<< 
+B>> play W H1
+B<< = 
+B<< 
+B>> genmove b
+B<< = C9
+B<< 
+W>> play B C9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 8950
+W<< = J5
+W<< 
+B>> play W J5
+B<< = 
+B<< 
+B>> genmove b
+B<< = A3
+B<< 
+W>> play B A3
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9179
+W<< = J7
+W<< 
+B>> play W J7
+B<< = 
+B<< 
+B>> genmove b
+B<< = G1
+B<< 
+W>> play B G1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 8990
+W<< = A5
+W<< 
+B>> play W A5
+B<< = 
+B<< 
+B>> genmove b
+B<< = A8
+B<< 
+W>> play B A8
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9336
+W<< = C7
+W<< 
+B>> play W C7
+B<< = 
+B<< 
+B>> genmove b
+B<< = C4
+B<< 
+W>> play B C4
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9399
+W<< = G8
+W<< 
+B>> play W G8
+B<< = 
+B<< 
+B>> genmove b
+B<< = A1
+B<< 
+W>> play B A1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9590
+W<< = J2
+W<< 
+B>> play W J2
+B<< = 
+B<< 
+B>> genmove b
+B<< = B6
+B<< 
+W>> play B B6
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9694
+W<< = D8
+W<< 
+B>> play W D8
+B<< = 
+B<< 
+B>> genmove b
+B<< = G7
+B<< 
+W>> play B G7
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9785
+W<< = H4
+W<< 
+B>> play W H4
+B<< = 
+B<< 
+B>> genmove b
+B<< = A6
+B<< 
+W>> play B A6
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10034
+W<< = A7
+W<< 
+B>> play W A7
+B<< = 
+B<< 
+B>> genmove b
+B<< = E3
+B<< 
+W>> play B E3
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10183
+W<< = B1
+W<< 
+B>> play W B1
+B<< = 
+B<< 
+B>> genmove b
+B<< = J6
+B<< 
+W>> play B J6
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10720
+W<< = F7
+W<< 
+B>> play W F7
+B<< = 
+B<< 
+B>> genmove b
+B<< = J3
+B<< 
+W>> play B J3
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 11208
+W<< = H3
+W<< 
+B>> play W H3
+B<< = 
+B<< 
+B>> genmove b
+B<< = E7
+B<< 
+W>> play B E7
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 11234
+W<< = G6
+W<< 
+B>> play W G6
+B<< = 
+B<< 
+B>> genmove b
+B<< = H2
+B<< 
+W>> play B H2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 11698
+W<< = H9
+W<< 
+B>> play W H9
+B<< = 
+B<< 
+B>> genmove b
+B<< = F9
+B<< 
+W>> play B F9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 12354
+W<< = C8
+W<< 
+B>> play W C8
+B<< = 
+B<< 
+B>> genmove b
+B<< = E1
+B<< 
+W>> play B E1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 12681
+W<< = C3
+W<< 
+B>> play W C3
+B<< = 
+B<< 
+B>> genmove b
+B<< = D7
+B<< 
+W>> play B D7
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 13551
+W<< = G3
+W<< 
+B>> play W G3
+B<< = 
+B<< 
+B>> genmove b
+B<< = J8
+B<< 
+W>> play B J8
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 13438
+W<< = F1
+W<< 
+B>> play W F1
+B<< = 
+B<< 
+B>> genmove b
+B<< = C2
+B<< 
+W>> play B C2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 14025
+W<< = E9
+W<< 
+B>> play W E9
+B<< = 
+B<< 
+B>> genmove b
+B<< = G4
+B<< 
+W>> play B G4
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 15312
+W<< = B9
+W<< 
+B>> play W B9
+B<< = 
+B<< 
+B>> genmove b
+B<< = B8
+B<< 
+W>> play B B8
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 15330
+W<< = F8
+W<< 
+B>> play W F8
+B<< = 
+B<< 
+B>> genmove b
+B<< = B2
+B<< 
+W>> play B B2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 16190
+W<< = C5
+W<< 
+B>> play W C5
+B<< = 
+B<< 
+B>> genmove b
+B<< = F3
+B<< 
+W>> play B F3
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 15283
+W<< = C1
+W<< 
+B>> play W C1
+B<< = 
+B<< 
+B>> genmove b
+B<< = G5
+B<< 
+W>> play B G5
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 15930
+W<< = A4
+W<< 
+B>> play W A4
+B<< = 
+B<< 
+B>> genmove b
+B<< = B3
+B<< 
+W>> play B B3
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 20242
+W<< = B7
+W<< 
+B>> play W B7
+B<< = 
+B<< 
+B>> genmove b
+B<< = A2
+B<< 
+W>> play B A2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 26449
+W<< = B5
+W<< 
+B>> play W B5
+B<< = 
+B<< 
+B>> genmove b
+B<< = E2
+B<< 
+W>> play B E2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 56173
+W<< = resign
+W<< 
+============================================
+Game 4
+============================================
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+B>> genmove b
+B<< = D1
+B<< 
+W>> play B D1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 8878
+W<< = G4
+W<< 
+B>> play W G4
+B<< = 
+B<< 
+B>> genmove b
+B<< = F3
+B<< 
+W>> play B F3
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9024
+W<< = G2
+W<< 
+B>> play W G2
+B<< = 
+B<< 
+B>> genmove b
+B<< = D9
+B<< 
+W>> play B D9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9022
+W<< = A1
+W<< 
+B>> play W A1
+B<< = 
+B<< 
+B>> genmove b
+B<< = E7
+B<< 
+W>> play B E7
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9164
+W<< = F7
+W<< 
+B>> play W F7
+B<< = 
+B<< 
+B>> genmove b
+B<< = J8
+B<< 
+W>> play B J8
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9395
+W<< = J5
+W<< 
+B>> play W J5
+B<< = 
+B<< 
+B>> genmove b
+B<< = G5
+B<< 
+W>> play B G5
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9562
+W<< = B9
+W<< 
+B>> play W B9
+B<< = 
+B<< 
+B>> genmove b
+B<< = J1
+B<< 
+W>> play B J1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9719
+W<< = B4
+W<< 
+B>> play W B4
+B<< = 
+B<< 
+B>> genmove b
+B<< = J6
+B<< 
+W>> play B J6
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9887
+W<< = C5
+W<< 
+B>> play W C5
+B<< = 
+B<< 
+B>> genmove b
+B<< = A7
+B<< 
+W>> play B A7
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 9949
+W<< = E1
+W<< 
+B>> play W E1
+B<< = 
+B<< 
+B>> genmove b
+B<< = B6
+B<< 
+W>> play B B6
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10284
+W<< = C3
+W<< 
+B>> play W C3
+B<< = 
+B<< 
+B>> genmove b
+B<< = H2
+B<< 
+W>> play B H2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10258
+W<< = A6
+W<< 
+B>> play W A6
+B<< = 
+B<< 
+B>> genmove b
+B<< = A9
+B<< 
+W>> play B A9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10598
+W<< = E9
+W<< 
+B>> play W E9
+B<< = 
+B<< 
+B>> genmove b
+B<< = H9
+B<< 
+W>> play B H9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 10752
+W<< = F9
+W<< 
+B>> play W F9
+B<< = 
+B<< 
+B>> genmove b
+B<< = A3
+B<< 
+W>> play B A3
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 11163
+W<< = H8
+W<< 
+B>> play W H8
+B<< = 
+B<< 
+B>> genmove b
+B<< = J3
+B<< 
+W>> play B J3
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 11549
+W<< = H1
+W<< 
+B>> play W H1
+B<< = 
+B<< 
+B>> genmove b
+B<< = D3
+B<< 
+W>> play B D3
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 12173
+W<< = H3
+W<< 
+B>> play W H3
+B<< = 
+B<< 
+B>> genmove b
+B<< = H7
+B<< 
+W>> play B H7
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 12784
+W<< = D7
+W<< 
+B>> play W D7
+B<< = 
+B<< 
+B>> genmove b
+B<< = H4
+B<< 
+W>> play B H4
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 13374
+W<< = J4
+W<< 
+B>> play W J4
+B<< = 
+B<< 
+B>> genmove b
+B<< = G7
+B<< 
+W>> play B G7
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 13482
+W<< = G6
+W<< 
+B>> play W G6
+B<< = 
+B<< 
+B>> genmove b
+B<< = B2
+B<< 
+W>> play B B2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 14248
+W<< = C1
+W<< 
+B>> play W C1
+B<< = 
+B<< 
+B>> genmove b
+B<< = C2
+B<< 
+W>> play B C2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 15007
+W<< = E3
+W<< 
+B>> play W E3
+B<< = 
+B<< 
+B>> genmove b
+B<< = F1
+B<< 
+W>> play B F1
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 15873
+W<< = C8
+W<< 
+B>> play W C8
+B<< = 
+B<< 
+B>> genmove b
+B<< = A2
+B<< 
+W>> play B A2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 16097
+W<< = B7
+W<< 
+B>> play W B7
+B<< = 
+B<< 
+B>> genmove b
+B<< = D2
+B<< 
+W>> play B D2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 16605
+W<< = D8
+W<< 
+B>> play W D8
+B<< = 
+B<< 
+B>> genmove b
+B<< = A4
+B<< 
+W>> play B A4
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 16678
+W<< = C6
+W<< 
+B>> play W C6
+B<< = 
+B<< 
+B>> genmove b
+B<< = B8
+B<< 
+W>> play B B8
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 18411
+W<< = F8
+W<< 
+B>> play W F8
+B<< = 
+B<< 
+B>> genmove b
+B<< = B5
+B<< 
+W>> play B B5
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 19372
+W<< = H6
+W<< 
+B>> play W H6
+B<< = 
+B<< 
+B>> genmove b
+B<< = B3
+B<< 
+W>> play B B3
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 20194
+W<< = G8
+W<< 
+B>> play W G8
+B<< = 
+B<< 
+B>> genmove b
+B<< = G9
+B<< 
+W>> play B G9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 27252
+W<< = C4
+W<< 
+B>> play W C4
+B<< = 
+B<< 
+B>> genmove b
+B<< = J9
+B<< 
+W>> play B J9
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 36962
+W<< = G1
+W<< 
+B>> play W G1
+B<< = 
+B<< 
+B>> genmove b
+B<< = F2
+B<< 
+W>> play B F2
+W<< = 
+W<< 
+W>> genmove w
+W<< search cycle: 50548
+W<< = C7
+W<< 
+B>> play W C7
+B<< = 
+B<< 
+B>> genmove b
+B<< = resign
+B<< 
+B>> quit
+W>> quit

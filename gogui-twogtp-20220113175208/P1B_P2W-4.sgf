@@ -1,0 +1,17 @@
+(;FF[4]CA[UTF-8]AP[gogui-twogtp:1.4.9]SZ[9]
+KM[0]PB[Hollow-Black]PW[Judge-Medium]DT[2022-01-13]RE[W+R]
+C[Black command: ./nogo --shell --name="Hollow-Black" --black="mcts N=1"
+White command: gogui-client tcglinux10 20000
+Black version: 2021
+White version: 2021
+Result[Black\]: W+R
+Result[White\]: W+R
+Host: tcglinux2.cs.nctu.edu.tw (Intel(R) Xeon(R) Gold 6126 CPU @ 2.60GHz)
+Date: January 13, 2022 5:55:36 PM CST]
+;B[be];W[aa];B[gd];W[di];B[ag];W[ai];B[hf];W[cc];B[gg];W[ec]
+;B[ad];W[hi];B[af];W[ih];B[ie];W[bf];B[id];W[fg];B[hg];W[ia]
+;B[db];W[eh];B[da];W[he];B[hc];W[gc];B[gi];W[hb];B[eg];W[ce]
+;B[ab];W[cg];B[ge];W[ac];B[hh];W[bd];B[ci];W[ea];B[ig];W[dh]
+;B[fa];W[fb];B[ib];W[bh];B[ei];W[gb];B[gh];W[ca];B[cb];W[ah]
+;B[bi];W[dc];B[ga];W[bg];B[if];W[cd];B[ic];W[fh];B[gf];W[cf]
+;B[bb];W[eb];B[fi];W[fc])
