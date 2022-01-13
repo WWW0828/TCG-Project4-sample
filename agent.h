@@ -99,6 +99,7 @@ public:
 			auto start = std::chrono::high_resolution_clock::now();
 			auto now = std::chrono::high_resolution_clock::now();
 			auto timespent = std::chrono::duration_cast<std::chrono::milliseconds>(now - start);
+			int count=0;
 			do{
 				std::vector<node*> path = select();
 				node* leaf = path.back()->expand(engine);
@@ -106,7 +107,9 @@ public:
 				update(path, leaf->simulate(engine));
 				now = std::chrono::high_resolution_clock::now();
 				timespent = std::chrono::duration_cast<std::chrono::milliseconds>(now - start);
-			}while(timespent < 1000);
+				count++;
+			}while(timespent.count() < 1000);
+			std::cout<<"search cycle: "<<count<<std::endl;
 			/*for (size_t i = 0; i < N; i++) {
 				std::vector<node*> path = select();
 				node* leaf = path.back()->expand(engine);
